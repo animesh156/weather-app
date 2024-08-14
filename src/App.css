@@ -1,0 +1,99 @@
+body {
+
+   background-color: white;
+  
+  
+  }
+  .location-box {
+     margin-top: -20px;
+  }
+  
+  #srh-btn {
+    margin-left: 8px;
+    padding: 10px;
+  }
+  
+  .app {
+    border: 2px solid rgb(78, 77, 77);
+    width: 100%;
+    max-width: 400px;
+    height: 580px;
+    margin: auto;
+    text-align: center;
+   background-size: cover;
+   
+    
+   opacity:0.8;
+   margin-top: 20px;
+   border-radius: 20px;
+   
+  }
+
+
+ 
+  
+  input {
+    padding: 15px;
+    border-radius: 8px;
+    width: 60%;
+    background-color: rgba(233, 237, 238, 0.658);
+    margin-top: 8px;
+    height: 35px;
+  }
+  
+  .temperature {
+    font-size: 5rem;
+   
+    margin-top: -20px;
+  
+  }
+  
+  .location {
+    margin-top: 5px;
+    font-size: xx-large;
+    font-weight: 700;
+   
+  
+  }
+  
+  .date {
+    font-size: x-large;
+    
+    font-weight: 700;
+  }
+  .temp {
+    margin-top: 10px;
+    font-size:xx-large;
+     padding: 12px 25px;
+   
+     font-weight: 700;
+  
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+  
+     
+  }
+  
+  .weather {
+  font-size: xx-large;
+ 
+  font-weight: 500;
+  }
+  
+  
+  button {
+    padding: 15px;
+    border-radius: 8px;
+    width: 70px;
+    margin-top:25px;
+    height: 40px;
+  }
+  
+  .wind-speed {
+   font-size: 33px;
+  
+  }
+  
+
+  
