@@ -1,23 +1,13 @@
-body {
 
-   background-color: white;
-  
-  
-  }
   .location-box {
      margin-top: -20px;
   }
   
-  #srh-btn {
-    margin-left: 8px;
-    padding: 10px;
-  }
+ 
   
   .app {
     border: 2px solid rgb(78, 77, 77);
-    width: 100%;
-    max-width: 400px;
-    height: 580px;
+  
     margin: auto;
     text-align: center;
    background-size: cover;
@@ -40,6 +30,18 @@ body {
     margin-top: 8px;
     height: 35px;
   }
+
+  #search-btn {
+    padding: 8px;
+    border-radius: 8px;
+    width: 70px;
+    margin-top:10px;
+    height: 35px;
+    
+  }
+
+  
+
   
   .temperature {
     font-size: 5rem;
@@ -49,7 +51,7 @@ body {
   }
   
   .location {
-    margin-top: 5px;
+   
     font-size: xx-large;
     font-weight: 700;
    
@@ -82,13 +84,7 @@ body {
   }
   
   
-  button {
-    padding: 15px;
-    border-radius: 8px;
-    width: 70px;
-    margin-top:25px;
-    height: 40px;
-  }
+
   
   .wind-speed {
    font-size: 33px;
