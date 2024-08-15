@@ -169,6 +169,7 @@ function App() {
             <h1 className="temperature text-white">
               {Math.round(weather.main.temp)}°c
             </h1>
+            <p classNamd="text-white text-center">{weather.weather[0]. description}</p>
 
             <div className="location-box text-white ">
               <div className="location mt-11">
