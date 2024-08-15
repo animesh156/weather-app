@@ -39,7 +39,7 @@ function App() {
           result.weather[0].main === "Mist" ||
           result.weather[0].main === "Fog"
         ) {
-          setName("rain");
+          setName("mist");
         } else if (result.weather[0].main === "Tornado") {
           setName("tornado");
         } else if (
@@ -82,7 +82,7 @@ function App() {
             result.weather[0].main === "Mist" ||
             result.weather[0].main === "Fog"
           ) {
-            setName("rain");
+            setName("mist");
           } else if (result.weather[0].main === "Tornado") {
             setName("tornado");
           } else if (
