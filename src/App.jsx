@@ -63,6 +63,13 @@ function App() {
       )
         .then((res) => res.json())
         .then((result) => {
+          if(result.cod !== 200) {
+            alert('City Not Found')
+            setQuery('')
+          }
+
+           else {
+             
           setWeather(result);
           setQuery("");
 
@@ -93,6 +100,7 @@ function App() {
           } else {
             setName("clear");
           }
+           }
         });
     }
   };
