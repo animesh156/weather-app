@@ -146,7 +146,7 @@ function App() {
 
   return (
     <div
-      className="app h-[540px] w-80  xl:w-96"
+      className="app  w-80  xl:w-96"
       style={{ backgroundImage: `url("/${name}.gif")` }}
     >
       <main>
