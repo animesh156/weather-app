@@ -1,95 +1,90 @@
 
-  .location-box {
-     margin-top: -20px;
-  }
-  
+
+.app {
  
-  
-  .app {
-    border: 2px solid rgb(78, 77, 77);
-  
-    margin: auto;
-    text-align: center;
-   background-size: cover;
-   
-    
-   opacity:0.8;
-   margin-top: 20px;
-   border-radius: 20px;
-   
-  }
 
+  margin: auto;
+  text-align: center;
+  background-size: cover;
 
- 
-  
-  input {
-    padding: 15px;
-    border-radius: 8px;
-    width: 60%;
-    background-color: rgba(233, 237, 238, 0.658);
-    margin-top: 8px;
-    height: 35px;
-  }
-
-  #search-btn {
-    padding: 8px;
-    border-radius: 8px;
-    width: 70px;
-    margin-top:10px;
-    height: 35px;
-    
-  }
+  opacity: 0.8;
 
   
+}
 
-  
-  .temperature {
-    font-size: 5rem;
-   
-    margin-top: -20px;
-  
-  }
-  
-  .location {
-   
-    font-size: xx-large;
-    font-weight: 700;
-   
-  
-  }
-  
-  .date {
-    font-size: x-large;
-    
-    font-weight: 700;
-  }
-  .temp {
-    margin-top: 10px;
-    font-size:xx-large;
-     padding: 12px 25px;
-   
-     font-weight: 700;
-  
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-  
-     
-  }
-  
-  .weather {
+input {
+  padding: 10px;
+  margin-top: 8px;
+
+}
+
+
+
+.temperature {
+  font-size: 5rem;
+
+  margin-top: -20px;
+}
+
+.location {
   font-size: xx-large;
- 
+  font-weight: 700;
+}
+
+.date {
+  font-size: x-large;
+
+  font-weight: 700;
+}
+.temp {
+  margin-top: 10px;
+  font-size: xx-large;
+  padding: 12px 25px;
+
+  font-weight: 700;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.weather {
+  font-size: xx-large;
+
   font-weight: 500;
-  }
-  
-  
+}
 
-  
-  .wind-speed {
-   font-size: 33px;
-  
-  }
-  
+.wind-speed {
+  font-size: 33px;
+}
 
-  
+.loadingSpinnerContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(13, 14, 14, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #0beaf1 transparent #d11010 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
