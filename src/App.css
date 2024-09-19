@@ -13,7 +13,7 @@
 }
 
 input {
-  padding: 10px;
+  padding: 8px;
   margin-top: 8px;
 
 }
@@ -88,3 +88,81 @@ input {
     transform: rotate(360deg);
   }
 }
+
+
+
+body.clear {
+  background: url('../public/clear.gif');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+body.cloudy {
+  background: url('../public/cloudy.gif');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh
+}
+
+body.rain {
+  background: url('../public/rain.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.snow {
+  background: url('../public/snow.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.thunder {
+  background: url('../public/thunder.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.drizzle {
+  background: url('../public/drizzle.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.mist {
+  background: url('../public/mist.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+
+body.fog {
+  background: url('../public/mist.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.tornado {
+  background: url('../public/tornado.gif');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh
+}
+
+body.sand {
+  background: url('../public/sand.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+body.dust {
+  background: url('../public/dust.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+
+body {
+  background: url('../public/clear.gif');
+  background-repeat: no-repeat;
+   background-size: 100vw 100vh
+}
+
+

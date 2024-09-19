@@ -2,7 +2,7 @@
 import { WiHumidity } from "react-icons/wi";
 import { FaWind } from "react-icons/fa";
 
-function WeatherDetails({weather,name}) {
+function WeatherDetails({weather}) {
 
     const date = new Date();
     const formattedDate = date.toLocaleString("en-US", {
@@ -15,26 +15,26 @@ function WeatherDetails({weather,name}) {
   return (
     
     <div
-    className="app  w-80  md:w-[700px] mt-12 rounded-3xl  border-2 border-rose-600 shadow-sm shadow-gray-100 "
-    style={{ backgroundImage: `url("/${name}.gif")` }}
+    className="app  w-80  md:w-[700px] mt-12 rounded-3xl bg-gray-50 backdrop-filter backdrop-blur-sm   dark:bg-black border-2  dark:border-rose-600  shadow-md dark:shadow-red-500 "
+    
   >
     {typeof weather.main != "undefined" ? (
       <div className="mt-10">
-        <h1 className="temperature text-white dark:text-yellow-500 font-bold">
+        <h1 className="temperature  dark:text-purple-500 text-cyan-400 font-bold">
           {Math.round(weather.main.temp)}°c
         </h1>
-        <p className="text-white location uppercase dark:text-green-600 font-semibold">
+        <p className=" location uppercase dark:text-green-600 text-red-500 font-semibold">
           {weather.weather[0].description}
         </p>
 
-        <div className="location-box text-white dark:text-pink-500 ">
+        <div className="location-box  dark:text-pink-500 text-orange-500 ">
           <div className="location mt-11">
             {weather.name}, {weather.sys.country}
           </div>
 
           <div className="date">{formattedDate}</div>
         </div>
-        <div className="weather-box text-white mt-10 dark:text-sky-500">
+        <div className="weather-box  mt-10 dark:text-sky-500 text-pink-500">
           <div className="temp">
             <p className="wind-speed">
               {Math.round(weather.wind.speed)}km/h{" "}
